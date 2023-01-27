@@ -1,0 +1,90 @@
+html{
+    box-sizing: content-box;
+}
+
+body{
+    background-color: rgb(81, 79, 79);
+    color:white;    
+}
+.carousel-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+  
+}
+
+
+.splide__pagination {
+  bottom: -2.5em;
+ 
+}
+
+.splide{
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+.splide__list{
+    display: flex;
+    width: 900px;
+}
+.splide__slide{
+    position: relative;
+    border: 8px solid rgb(81, 79, 79);
+}
+.splide__slide img {
+    width: 100%;
+    height: auto;
+
+  }
+
+
+  .card-details{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(12, 11, 11, 0.595);
+    display: flex;
+    padding: 8px 2px;
+    justify-content: space-between;
+    
+  }
+
+  .card-details span{
+    display:inline-block;
+    padding:3px;
+  }
+
+
+#right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+  #circle{
+    border-radius: 50%;
+    width: 1px;
+    height: 1px;
+   
+  }
+
+  .red{
+    background-color: red;
+  }
+
+  .green{
+    background-color: green;
+  }
+
+  .gray{
+    background-color: rgb(76, 75, 75);
+  }
+
+  
